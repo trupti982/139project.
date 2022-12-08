@@ -25,7 +25,7 @@ pattern_word_tags_list = [] #list of the pair of (['words', 'of', 'the', 'senten
 ignore_words = ['?', '!',',','.', "'s", "'m"]
 
 # opening JSON file, reading data from it, then closing it.
-train_data_file = open('C:\Users\dell\Downloads\PRO-C138-Project-Solution-main/PRO-C138-Project-Solution-main\PRO-C138-Project-Solution-main/intents.json')
+train_data_file = open('intents.json')
 data = json.load(train_data_file)
 train_data_file.close()
 
